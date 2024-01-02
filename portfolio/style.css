@@ -1,0 +1,185 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #201e20;
+    user-select: none;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #e0a96d;
+    position: absolute;
+    top: 0;
+}
+
+.logo{
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: auto;
+    float: left;
+    font-weight: bolder;
+    color: #e0a96d;
+    cursor: pointer;  
+}
+
+.menu ul{
+    width: 350px;
+    height: 48px;
+    display: flex;
+    position: relative;
+    left: 52%;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-left: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.menu ul li a{
+    font-size: 1.2em;
+    padding: 5px 10px;
+    font-weight: thin;
+    text-decoration: none;
+    color: #e0a96d;  
+}
+
+.txt{
+    height:10% ;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    cursor: default;
+    font-weight: normal;
+}
+
+/* this is for "sonu singh" in message */
+span{
+    font-weight: bolder;
+    cursor: pointer;
+    color: #e0a96d;
+    
+}
+
+.image{
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+    background-image: url(image/Sonu\ circle.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
+}
+
+.cnct{
+    color: #e0a96d;
+    height: 50px;
+    width: 15%;
+    left: 17%;
+    font-size: 2em;
+    position: absolute;
+    top: 58%;
+    cursor: default;
+}
+
+.socal{
+    position: absolute;
+    height: 60px;
+    width: 35%;
+    top: 65%;
+    left: 8%;
+}
+.socal ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+.socal ul li{
+    margin: 2px;
+}
+.socal ul li a{
+    text-decoration: none;
+    color: #201e20;
+    padding: 5px 35px;
+    font-size: 2em;
+    background-color: #e0a96d;
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white; 
+}
+
+.location{
+    position: relative;
+    top:35%;
+    left: 2%; 
+    font-size: 1em;
+    width: 15%;
+    font-weight: normal;
+    
+}
+
+.credit{
+    height: 20px;
+    right: 2%;
+    width: 150px;
+    bottom: 5px;
+    text-align: start;
+    float: right;
+    font-size: 01em;
+    position: relative;
+    font-weight: 100; 
+}
+
+#heart{
+    color: red;
+    font-size: 1.5em;
+}
+
+#bottomName{
+    position: relative;
+    top: 0;
+    color: red;
+    font-size: 0.9em;
+    height: 10px;
+    font-weight: 700;
+}
+
+/* hover section */
+
+.menu ul li a:hover{
+    position: relative;
+    bottom: 5px;
+    color: #fff;
+    border-bottom: 3px solid #e0a96d;
+}
+
+.socal ul li a:hover{
+    position: relative;
+    bottom: 1px;
+    background-color: #201e20;
+    color: #e0a96d;
+    transition: 0.5s ease-in-out;
+    transition-duration: 0.3s;
+    
+}
+

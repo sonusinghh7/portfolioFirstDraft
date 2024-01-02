@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(image/404image.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+button{
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #5ba5ff;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #3a68a1;
+}
